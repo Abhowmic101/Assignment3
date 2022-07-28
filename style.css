@@ -8,6 +8,11 @@ body {
     font-weight: bolder;
 }
 
+#nav-button:hover {
+    background-color: blue;
+    color: white;
+}
+
 .nav-font {
     font-size: 18px;
 }
@@ -16,4 +21,66 @@ body {
     font-weight: bolder;
     font-size: 30px;
     color: rgb(50, 48, 48);
+}
+
+.caption-item {
+    position: absolute;
+    top: 182px;
+    left: 324px;
+    right: 324px;
+
+}
+
+.caption-item h2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.caption-item p {
+    color: rgb(245, 246, 248);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#button-slider1 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+#button-slider2 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+#button-slider3 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+#caption-item2 {
+    position: absolute;
+    top: 222px;
+    left: 324px;
+    right: 324px;
+}
+
+#footer-caption {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.social-links {
+    padding-bottom: 200px;
+    margin: 0 auto;
+}
+
+.social-link {
+    margin-right: 10px;
+    font-size: 20px;
 }
