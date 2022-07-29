@@ -1,0 +1,9 @@
+@media only screen and (max-width:767px) {
+    body {
+        background-color: aqua;
+    }
+
+    .carousel-mobile {}
+
+    .carousel-tab {}
+}

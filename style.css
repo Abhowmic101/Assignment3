@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif, 'Montserrat Subrayada';
 }
 
+.text-bold {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.text-gray {
+    color: gray;
+}
+
 /* Nav Part */
 #nav-button {
     font-size: 22px;
@@ -60,6 +69,15 @@ body {
     font-size: 25px;
 }
 
+.carousel-height {
+    height: 700px;
+
+}
+
+.color {
+    color: white;
+}
+
 #caption-item2 {
     position: absolute;
     top: 222px;
@@ -81,6 +99,58 @@ body {
 }
 
 .social-link {
-    margin-right: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 35px;
+}
+
+.reg-button {
+    font-weight: bolder;
     font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 450px;
+
+
+}
+
+.heading {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.reg-para {
+    padding-bottom: 160px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+
+
+.card-height {
+    height: 200px;
+}
+
+.card-section-title-part {}
+
+.card-section-title {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.card-section-para {
+    font-weight: light;
+    color: gray;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.card-text-bold {
+    font-weight: 700;
+    font-size: 26px;
 }
