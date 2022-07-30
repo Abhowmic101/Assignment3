@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edu Junction || A Online Learning Platfrom For All </title>
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,6 +19,9 @@
     <!-- Fontawesome Link -->
     <script src="https://kit.fontawesome.com/a013bf1290.js" crossorigin="anonymous"></script>
     <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -58,7 +58,7 @@
 
                     </div>
                     <a href="https://github.com/Abhowmic101/Assignment3"
-                        class="btn text-primary border  border-3 border-primary  px-4 py-2 text-bold me-5 d-sm-none"
+                        class="btn text-primary border  border-3 border-primary  px-4 py-2 text-bold me-5 nav-button d-none d-md-block d-lg-block"
                         id="nav-button">Register</a>
                 </div>
             </nav>
@@ -66,8 +66,8 @@
         </section>
         <!-- Slider Starts -->
         <section class="container my-5 rounded-5">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide caro-pos" data-bs-ride="carousel">
+                <div class="carousel-inner ">
                     <div class="carousel-item active carousel-height carousel-tab carousel-mobile"
                         data-bs-interval="10000">
                         <img src="edTech-website-main/images/cover/cover-1.png" class="d-block w-100 h-100"
@@ -76,32 +76,33 @@
                             <h2 class="text-white"> Get Statrted Digital <br> Learning</h2>
                             <p>It is a long established fact that a reader will be distracted by the readable <br>
                                 content of a page when looking at its layout.</p>
-                            <a href="#" class="btn btn-primary" id="button-slider1">Get Started</a>
+                            <a href="#" class="btn btn-primary carousel-btn" id="button-slider1">Get Started</a>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-height carousel-tab carousel-mobile" data-bs-interval="2000">
+                    <div class="carousel-item carousel-height carousel-tm" data-bs-interval="2000">
 
                         <img src="edTech-website-main/images/cover/cover-2.jpg" class="d-block w-100 h-100"
                             id="slider-img2" alt="Girl with headphones">
 
 
-                        <div class="carousel-caption d-none d-md-block caption-item" id="caption-item2">
+                        <div class="carousel-caption caption-item" id="caption-item2">
                             <h2 class="text-white">Explore Our Digital <br> Courses</h2>
                             <p>Learning can help you in earning a new skill sets.So hurry. Buy your desireable courses
                                 <br>
                                 at a cheap rate today.
                             </p>
-                            <a href="#" class="btn btn-warning " id="button-slider2"> View Courses</a>
+                            <a href="#" class="btn btn-warning carousel-btn" id="button-slider2"> View Courses</a>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-height carousel-tab carousel-mobile">
-                        <img src="edTech-website-main/images/cover/cover-3.jpg" class="d-block w-100 h-100"
+                    <div class="carousel-item carousel-height carousel-tm">
+                        <img src="edTech-website-main/images/cover/cover-3.jpg" class="d-block w-100 h-100 "
                             alt="Girl with headphones">
-                        <div class="carousel-caption d-none d-md-block caption-item">
+                        <div class="carousel-caption caption-item">
                             <h2 class="text-white">Get Your Certificate <br> Today</h2>
                             <p>Our certificate can help you get internship and job at giant companies. <br>So Earn a new
                                 certificate a new skill today.</p>
-                            <a href="#" class="btn btn-danger button-slider" id="button-slider3">Earn Certificates</a>
+                            <a href="#" class="btn btn-danger button-slider carousel-btn" id="button-slider3">Earn
+                                Certificates</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +142,7 @@
                 <div class="row row-cols-lg-2 g-5">
 
                     <div class="card-group ">
-                        <div class="d-flex flex-column  ">
+                        <div class="d-flex flex-column">
                             <div class="card my-3 ">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0">
@@ -160,7 +161,7 @@
                             </div>
 
                             <div class="card my-3">
-                                <div class="d-flex">
+                                <div class="d-flex flex-m">
                                     <div class="flex-shrink-0">
                                         <img src="edTech-website-main/images/course/course-2.png" class="card-img-top"
                                             alt="...">
@@ -179,14 +180,14 @@
                                 </div>
                             </div>
                             <div class="card my-3">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0">
+                                <div class="d-flex  ">
+                                    <div class="flex-shrink-0 ">
                                         <img src="edTech-website-main/images/course/course-3.png" class="card-img-top"
                                             alt="...">
                                     </div>
 
 
-                                    <div class="card-body flex-grow-1 ms-2">
+                                    <div class="card-body flex-grow-1 ms-2 card-tm">
                                         <h3 class="card-title card-text-bold">Photography Basic Rules
                                         </h3>
                                         <p class="card-text text-gray">Some quick example text to build on the card
@@ -198,10 +199,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-group">
-                        <div class="d-flex flex-column">
+                    <div class="card-group d-none d-lg-block">
+                        <div class="d-flex flex-column ">
                             <div class="card my-3">
-                                <div class="d-flex">
+                                <div class="d-flex flex-m">
                                     <div class="flex-shrink-0">
                                         <img src="edTech-website-main/images/course/course-4.png" class="card-img-top"
                                             alt="...">
@@ -216,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="card my-3">
-                                <div class="d-flex">
+                                <div class="d-flex flex-m">
                                     <div class="flex-shrink-0">
                                         <img src="edTech-website-main/images/course/course-5.png" class="card-img-top"
                                             alt="...">
@@ -231,7 +232,7 @@
                                 </div>
                             </div>
                             <div class="card my-3">
-                                <div class="d-flex">
+                                <div class="d-flex flex-m">
                                     <div class="flex-shrink-0">
                                         <img src="edTech-website-main/images/course/course-6.png" class="card-img-top"
                                             alt="...">
@@ -250,17 +251,20 @@
                     </div>
                 </div>
             </div>
-            <div class="d-none d-lg-block">
+
+            <div class="d-lg-block d-none ">
                 <div class="d-flex justify-content-center ">
                     <a href="#" class="bg-primary text-white p-3 text-bold text-decoration-none"> See More Courses</a>
-                </div><br>
-                <div class="d-sm-block d-md-block d-lg-none">
-                    <div class="d-flex justify-content-center ">
-                        <a href="#" class="bg-primary text-white p-3 text-bold text-decoration-none"> View All
-                        </a>
-                    </div>
-
                 </div>
+            </div><br>
+            <div class="d-lg-none">
+                <div class="d-flex justify-content-center ">
+                    <a href="#" class="bg-primary text-white p-3 text-bold text-decoration-none course-btn"> View
+                        All
+                    </a>
+                </div>
+
+            </div>
 
 
         </section>
@@ -319,7 +323,7 @@
         </section>
         <!-- Registration Ends  -->
         <!-- Frequently Asked Questions Section Starts -->
-        <div class="container margin-y">
+        <div class="container d-flex flex-column justify-content-center margin-y">
             <div class="text-center">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-para my-3 "><span>It is a long established fact that a reader will be
@@ -330,10 +334,7 @@
                     </span>
                 </p>
             </div>
-
-
-            </p>
-            <div class="accordion " id="accordionExample">
+            <div class="accordion" id="accordionExample">
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -438,8 +439,8 @@
         </div>
         <!-- Frequently Asked Questions Section Ends -->
         <!-- Company Section Starts -->
-        <section class="my-5 container d-sm-none 
-        	d-md-none d-lg-block">
+        <section class="my-5 container d-none 
+        	 d-lg-block">
             <div class="d-flex flex-column">
                 <div class="mx-auto ">
                     <h1 class="section-title mb-3">Trusted By 800+ Companies</h1>
@@ -457,12 +458,12 @@
         <!-- Company Section Ends -->
     </main>
     <!-- Footer Section Starts -->
-    <footer class="my-5 container-fluid d-flex flex-column  align-items-center bg-dark">
-        <h2 id="footer-caption">Edu Junction</h2>
-        <div>
+    <footer class="my-5 container-fluid d-flex flex-column  align-items-center bg-dark footer">
 
+        <div>
+            <h2 id="footer-caption">Edu Junction</h2>
         </div>
-        <div class="text-primary">
+        <div class="text-white">
             <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
 
                 <span class="p-5">Sultanate of Oman</span> <br>

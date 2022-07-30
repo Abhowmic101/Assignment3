@@ -1,209 +1,236 @@
-body {
-    font-family: 'Roboto', sans-serif, 'Montserrat Subrayada';
-}
+@media screen and (min-width:1200px) {
 
-.margin-y {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
+    /* Common classes */
+    body {
+        font-family: 'Roboto', sans-serif, 'Montserrat Subrayada';
+    }
 
-.text-bold {
-    font-weight: 900;
-    font-size: 20px;
-}
+    .margin-y {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
 
-.text-gray {
-    color: gray;
-}
+    .section-para {
+        font-weight: light;
+        color: gray;
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+    }
 
-/* Nav Part */
-#nav-button {
-    font-size: 22px;
-    font-weight: bolder;
-}
+    .text-bold {
+        font-weight: 900;
+        font-size: 20px;
+    }
 
-#nav-button:hover {
-    background-color: blue;
-    color: white;
-}
+    .text-gray {
+        color: gray;
+    }
 
-.nav-font {
-    font-size: 18px;
-}
+    /* Nav Part */
+    #nav-button {
+        font-size: 22px;
+        font-weight: bolder;
+    }
 
-#nav-logo {
-    font-weight: bolder;
-    font-size: 30px;
-    color: rgb(50, 48, 48);
-}
+    #nav-button:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+    }
 
-.caption-item {
-    position: absolute;
-    top: 182px;
-    left: 324px;
-    right: 324px;
+    .nav-font {
+        font-size: 18px;
+    }
 
-}
+    #nav-logo {
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(50, 48, 48);
+    }
 
-.caption-item h2 {
-    font-size: 60px;
-    font-weight: bolder;
-}
+    /* Slider Part */
+    .caption-item {
+        position: absolute;
+        top: 182px;
+        left: 324px;
+        right: 324px;
 
-.caption-item p {
-    color: rgb(245, 246, 248);
-    font-weight: 300;
-    font-size: 20px;
-}
+    }
 
-#button-slider1 {
-    font-weight: bold;
-    color: white;
-    font-size: 25px;
-}
+    .caption-item h2 {
+        font-size: 60px;
+        font-weight: bolder;
+    }
 
-#button-slider2 {
-    font-weight: bold;
-    color: white;
-    font-size: 25px;
-}
+    .caption-item p {
+        color: rgb(245, 246, 248);
+        font-weight: 300;
+        font-size: 20px;
+    }
 
-#button-slider3 {
-    font-weight: bold;
-    color: white;
-    font-size: 25px;
-}
+    #button-slider1 {
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+    }
 
-.carousel-height {
-    height: 700px;
+    #button-slider2 {
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+    }
 
-}
+    #button-slider3 {
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+    }
 
-.color {
-    color: white;
-}
+    .carousel-height {
+        height: 700px;
 
-#caption-item2 {
-    position: absolute;
-    top: 222px;
-    left: 324px;
-    right: 324px;
-}
+    }
 
-#footer-caption {
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 150px;
-}
+    .color {
+        color: white;
+    }
 
-.social-links {
-    padding-bottom: 200px;
-    margin: 0 auto;
-}
+    #caption-item2 {
+        position: absolute;
+        top: 222px;
+        left: 324px;
+        right: 324px;
+    }
 
-.social-link {
-    margin-right: 6px;
-    margin-left: 6px;
-    font-size: 35px;
-}
+    /* Footer Part */
+    #footer-caption {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 150px;
+    }
 
-.reg-button {
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 15px;
-    text-decoration: none;
-    margin-left: 450px;
+    .footer {
+        height: 472px;
+    }
+
+    .social-links {
+        padding-bottom: 200px;
+
+    }
+
+    .social-link {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 35px;
+        background-color: rgb(23, 22, 22);
+        border: 1px solid rgb(23, 22, 22);
+        box-shadow: 3px 3px 3px black;
+        padding: 2px;
+        color: white;
+    }
+
+    /* Registration Part   */
+    .reg-button {
+        font-weight: bolder;
+        font-size: 20px;
+        padding: 15px;
+        text-decoration: none;
+        margin-left: 450px;
 
 
-}
+    }
 
-.heading {
-    /* margin-top: 80px;
+    .heading {
+        /* margin-top: 80px;
     margin-left: 100px;
     margin-bottom: 10px; */
-    font-weight: bolder;
-}
+        font-weight: bolder;
+    }
 
-.card-section-title {
-    display: flex;
-    flex-direction: column;
-}
+    /* Courses Part  */
+    .card-section-title {
+        display: flex;
+        flex-direction: column;
+    }
 
-.section-para {
-    font-weight: light;
-    color: gray;
-    display: flex;
-    font-size: 20px;
-    flex-direction: column;
-}
+    .section-title {
+        font-size: 40px;
+        font-weight: bolder;
+    }
 
-.section-title {
-    font-size: 40px;
-    font-weight: bolder;
-}
+    .course-btn1 {
+        visibility: visible;
+    }
 
-.card-text-bold {
-    font-weight: 700;
-    font-size: 26px;
-}
+    .course-btn {
+        display: none;
+    }
 
-
-.button-text-bold {
-    font-size: 20px;
-    font-weight: 900;
-}
+    .card-text-bold {
+        font-weight: 700;
+        font-size: 26px;
+    }
 
 
-#accor-btn1:focus {
-    background-color: rgb(218, 247, 253);
-    border: 5px solid rgb(218, 247, 253);
-    outline: 5px solid rgb(218, 247, 253);
-    border-radius: 5px;
-    color: black;
-    font-size: 20px;
-}
+    .button-text-bold {
+        font-size: 20px;
+        font-weight: 900;
+    }
 
-#accor-btn2:focus {
-    background-color: rgb(218, 247, 253);
-    border: 5px solid rgb(218, 247, 253);
-    outline: 5px solid rgb(218, 247, 253);
-    border-radius: 5px;
-    color: black;
-    font-size: 20px;
-}
+    /* Question-Answers Part */
 
-#accor-btn3:focus {
-    background-color: rgb(218, 247, 253);
-    border: 5px solid rgb(218, 247, 253);
-    outline: 5px solid rgb(218, 247, 253);
-    border-radius: 5px;
-    color: black;
-    font-size: 20px;
-}
+    #accor-btn1:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
 
-#accor-btn4:focus {
-    background-color: rgb(218, 247, 253);
-    border: 5px solid rgb(218, 247, 253);
-    outline: 5px solid rgb(218, 247, 253);
-    border-radius: 5px;
-    color: black;
-    font-size: 20px;
-}
+    #accor-btn2:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
 
-#accor-btn1 {
-    font-size: 20px;
-}
+    #accor-btn3:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
 
-#accor-btn2 {
-    font-size: 20px;
-}
+    #accor-btn4:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
 
-#accor-btn3 {
-    font-size: 20px;
-}
+    #accor-btn1 {
+        font-size: 20px;
+    }
 
-#accor-btn4 {
-    font-size: 20px;
+    #accor-btn2 {
+        font-size: 20px;
+    }
+
+    #accor-btn3 {
+        font-size: 20px;
+    }
+
+    #accor-btn4 {
+        font-size: 20px;
+    }
 }
