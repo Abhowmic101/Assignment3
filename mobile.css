@@ -3,6 +3,11 @@
         font-family: 'Roboto', sans-serif, 'Montserrat Subrayada';
     }
 
+    .section-title {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
     /* Slider Part  */
     .caption-item {
         position: absolute;
@@ -50,6 +55,7 @@
         font-size: 16px;
     }
 
+    /* Courses  */
     .flex-m {
         display: flex;
         flex-direction: column;
@@ -61,7 +67,18 @@
         height: 50%;
     }
 
+    .card-text-bold {
+        font-weight: 700;
+        font-size: 26px;
+    }
 
+
+    .button-text-bold {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    /* Footer Part  */
     #footer-caption {
         color: white;
         font-size: 30px;
@@ -150,5 +167,36 @@
 
     #accor-btn4 {
         font-size: 14px;
+    }
+
+    /* Registration Section  */
+    .reg-button {
+        font-weight: bolder;
+        font-size: 10px;
+        padding: 5px;
+        text-decoration: none;
+
+
+
+    }
+
+    .content-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-x {
+        margin-left: 20px;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .margin-btn-x {
+        margin-left: 160px;
+        margin-right: auto;
+    }
+
+    .heading {
+        font-weight: bolder;
     }
 }

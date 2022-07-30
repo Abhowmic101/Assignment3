@@ -3,6 +3,59 @@
         font-family: 'Roboto', sans-serif, 'Montserrat Subrayada';
     }
 
+    /* Navbar */
+    .margin-y {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .section-para {
+        font-weight: light;
+        color: gray;
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .text-bold {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+
+    .section-title {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+
+    /* Nav Part */
+    #nav-button {
+        font-size: 22px;
+        font-weight: bolder;
+        position: absolute;
+        left: 564px;
+    }
+
+    #nav-button:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav-font {
+        font-size: 18px;
+    }
+
+    #nav-logo {
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(50, 48, 48);
+    }
 
     /* Slider Part  */
 
@@ -26,6 +79,7 @@
         font-size: 12px;
     }
 
+    /* Slider Part  */
     .carousel-tm {
         width: 734px;
         height: 400px;
@@ -50,7 +104,7 @@
         font-size: 18px;
     }
 
-
+    /* Footer Part  */
 
     #footer-caption {
         color: white;
@@ -80,4 +134,103 @@
         color: white;
     }
 
-}
+
+    /* Courses */
+    .card-text-bold {
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+
+    .button-text-bold {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+
+
+    /* Question-Answers Part */
+
+    #accor-btn1:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
+
+    #accor-btn2:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
+
+    #accor-btn3:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
+
+    #accor-btn4:focus {
+        background-color: rgb(218, 247, 253);
+        border: 5px solid rgb(218, 247, 253);
+        outline: 5px solid rgb(218, 247, 253);
+        border-radius: 5px;
+        color: black;
+        font-size: 20px;
+    }
+
+    #accor-btn1 {
+        font-size: 20px;
+    }
+
+    #accor-btn2 {
+        font-size: 20px;
+    }
+
+    #accor-btn3 {
+        font-size: 20px;
+    }
+
+    #accor-btn4 {
+        font-size: 20px;
+    }
+
+    /* Registration Section  */
+
+    .reg-button {
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 5px;
+        text-decoration: none;
+        margin-top: 0px;
+
+    }
+
+    .content-center {
+        flex-direction: column;
+
+    }
+
+    .margin-x {
+        margin-left: 203px;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .margin-btn-x {
+        margin-left: 373px;
+        margin-right: auto;
+
+    }
+
+    .heading {
+        font-weight: bolder;
+    }
